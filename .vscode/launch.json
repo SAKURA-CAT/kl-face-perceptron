@@ -12,6 +12,15 @@
             "console": "integratedTerminal",
             "env": { "PYTHONPATH": "${workspaceFolder}" },
             "justMyCode": true
+        },
+        {
+            "name": "测试",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/face_detect.py",
+            "console": "integratedTerminal",
+            "env": { "PYTHONPATH": "${workspaceFolder}" },
+            "justMyCode": true
         }
     ]
 }

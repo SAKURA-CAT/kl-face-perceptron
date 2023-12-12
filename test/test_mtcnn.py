@@ -8,3 +8,12 @@ r"""
     测试文件, 在此处测试mtcnn的效果
 """
 import cv2
+from mtcnnruntime import MTCNN
+
+
+mtcnn = MTCNN()
+
+img = cv2.imread("test/imgs/Elisabeth_Schumacher_0001.jpg")
+
+
+print(mtcnn.detect(img))

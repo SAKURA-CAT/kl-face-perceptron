@@ -27,7 +27,7 @@ if __name__ == "__main__":
         fn=predict,
         inputs=gr.Image(label="Image"),
         outputs=[gr.Image(type="pil", label="Compose Image")],
-        title="person-modnet",
+        title="kl-face-perceptron",
         examples=examples,
         theme=gr.themes.Base(),
     )

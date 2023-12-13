@@ -1,8 +1,10 @@
-# kl-face-perceptron
+<div align="center">
+<h1>kl-face-perceptron</h1>
+    
+[![SwanHub Demo](https://img.shields.io/static/v1?label=在线体验&message=SwanHub%20Demo&color=blue)](https://swanhub.co/cunyue/kl-face-perceptron/demo)
 
----
 
-[https://github.com/SAKURA-CAT/kl-face-perceptron](https://github.com/SAKURA-CAT/kl-face-perceptron)
+</div>
 
 基于K-L变换的人脸识别器，本项目将基于K-L变换完成人脸特征提取，实现人脸识别，具体功能是：
 
